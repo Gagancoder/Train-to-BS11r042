@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <title>Train on track</title>
+        
+    </head>
+    <body>
+<a-scene background="color:grey">
+    <a-entity position="-3 2 0">
+        <a-camera></a-camera>
+    </a-entity>
+            <!--Sky-->
+            <a-sky src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvia_lactea.png?v=1604296331712">
+
+            </a-sky>
+
+    <a-assets>
+        <a-assets-image id="train-obj" src="./aSZ0K0QJVgS/tinker.obj"></a-assets-image>
+        <a-asset-item id="train-mtl" src="./aSZ0K0QJVgS/obj.mtl"></a-asset-item>
+
+        <a-assets-image id="track-obj" src="./track/tinker.obj"></a-assets-image>
+        <a-asset-item id="track-mtl" src="./track/obj.mtl"></a-asset-item>
+
+        <a-assets-image id="gagan-obj" src="./by GAgan/tinker.obj"></a-assets-image>
+        <a-asset-item id="gagan-mtl" src="./by GAgan/obj.mtl"></a-asset-item>
+</a-assets>
+<a-entity obj-model="obj: #train-obj; mtl: #train-mtl"  position="0 0.3 -2.5" rotation="-90 0 90" scale="0.1 0.1 0.1 "
+></a-entity>
+
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="10 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="-10 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="-20 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="-20 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="-30 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="-40 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="20 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #track-obj; mtl: #track-mtl"  position="30 0 0" rotation="-90 0 0" scale="0.1 0.1 0.1 "
+></a-entity>
+
+<a-entity obj-model="obj: #gagan-obj; mtl: #gagan-mtl"  position="50 20 0" rotation="180 90 180" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #gagan-obj; mtl: #gagan-mtl"  position="10 -10 50" rotation="180 360 180" scale="0.1 0.1 0.1 "
+></a-entity>
+<a-entity obj-model="obj: #gagan-obj; mtl: #gagan-mtl"  position="10 -10 -50" rotation="180 180 180" scale="0.1 0.1 0.1 "
+></a-entity>
+
+
+
+
+</a-scene>
+
+    </body> 
+</html>
